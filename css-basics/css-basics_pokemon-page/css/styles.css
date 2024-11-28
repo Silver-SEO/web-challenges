@@ -4,12 +4,14 @@
 
 /* Task 1: First, we want to adjust how the size of our elements is calculated in CSS. Do you know how to switch from "content-box" to "border-box"? */
 
-/* Your solution */
+.border-box {
+  border-radius: 10px;
+}
 
 /* Task 2: Let's work on some basic stylings that we want to apply to all elements in your code via inheritance. Which selector do we need for this? */
 
 /* Add selector */
- {
+.content {
   font-family: monospace;
   font-size: 1rem;
   line-height: 1.5;
@@ -20,7 +22,10 @@
 
 /* Task 3: Setting the line height to 1.5 is good for texts, for accessibility reasons, but it seems too much for headings. Let's change this by giving our headings a line height of 1.2. */
 
-/* Your solution */
+h1,
+h2 {
+  line-height: 1.2;
+}
 
 /* Task 4: Now we want to give our h1 element more styles to shine! Add the following styles by writing the correct declarations inside the next CSS rule:
 
@@ -29,6 +34,12 @@
 - Add padding of 10px
 - Center the text of the heading
 */
+h1 {
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
 
 .title {
   /* Your solution */
@@ -45,7 +56,16 @@
 */
 
 section {
-  /* Your solution */
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-left: solid 5px;
+  border-color: orange;
+}
+
+section.favourites {
+  border-left: solid 25px;
+  border-color: gold;
 }
 
 /* ------- Headings Part 2 ------- */
@@ -59,7 +79,15 @@ section {
 */
 
 .subtitle {
-  /* Your solution */
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-color: gold;
+  padding: 10px;
+  display: inline-block;
+}
+
+.favourites .subtitle {
+  border-color: orange;
 }
 
 /* ------- List ------- */
@@ -67,20 +95,20 @@ section {
 /* Task 7: Finally, let's style our list with of favorite Pokémon. Which selector do we need? Also, add values for padding. */
 
 /* Add selector */
- {
+ul {
   list-style: "🧡";
-  padding-left: /* Add value */ ;
+  padding-left: 50px;
 }
 
 /* Add selector */
- {
-  padding-left: /* Add value */ ;
+li {
+  padding-left: 10px;
 }
 
 /* ------- The End -------- */
 
 .image-fluid {
-  width: 100%;
+  width: 20%;
   height: auto;
 }
 
