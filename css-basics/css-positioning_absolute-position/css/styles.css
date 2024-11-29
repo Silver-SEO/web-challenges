@@ -81,7 +81,7 @@ main {
 }
 
 .box--bottom-right {
-  background-color: #1b4f72;
+  background-color: green;
   position: absolute;
   right: 0;
   bottom: 0;
