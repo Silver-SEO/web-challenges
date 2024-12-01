@@ -2,13 +2,13 @@
 
 ## Tasks
 
-- [ ] Open your `index.html` file.
-- [ ] To create a flexbox container, determine which HTML element within the `<nav>` structure should have the `navigation__menu` class applied.
-- [ ] Next, open your `styles.css` file.
-- [ ] Make sure to include the `navigation__menu` class selector.
+- [x] Open your `index.html` file.
+- [x] To create a flexbox container, determine which HTML element within the `<nav>` structure should have the `navigation__menu` class applied.
+- [x] Next, open your `styles.css` file.
+- [x] Make sure to include the `navigation__menu` class selector.
 - [ ] Within the `navigation__menu` class selector, add the necessary properties to meet these requirements:
-  - [ ] The links should be spaced horizontally, as far apart as possible.
-  - [ ] The first link should align to the start, and the last link should align to the end.
+  - [x] The links should be spaced horizontally, as far apart as possible.
+  - [x] The first link should align to the start, and the last link should align to the end.
 
 ## Notes
 

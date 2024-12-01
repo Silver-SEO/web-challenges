@@ -22,6 +22,11 @@ ul {
   color: #252629;
   background-color: #f3f5f9;
 }
+.navigation__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .navigation__link {
   background-color: #ff4a11;
