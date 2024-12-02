@@ -18,6 +18,45 @@ carefully. */
 *::after {
   box-sizing: border-box;
 }
+@media screen and (min-width: 600px) {
+  main {
+    .box--two {
+      width: 200px;
+    }
+    .box--five  {
+            <img src="./img/cat_small.jpg" alt="A cat" />
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    .box--two {
+      width: 400px;
+    }
+  }
+}
+
+@media (min-width: 600px) and (orientation: landscape) {
+  main {
+    .box--three {
+      background-color: lightpink;
+      width: 250px;
+      height: 50px;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  main {
+    .box--four {
+      background-color: hotpink;
+
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
 
 body {
   margin: 0;
@@ -61,14 +100,12 @@ h1 {
 
 .box--one {
   background-color: lightblue;
-
-  width: 100px;
-  height: 100px;
+  width: 30%;
+  height: 30%;
 }
 
 .box--two {
   background-color: lightgreen;
-
   width: 100px;
   height: 100px;
 }
