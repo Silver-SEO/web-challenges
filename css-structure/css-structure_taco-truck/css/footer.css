@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  background: var(--card-bg);
+  color: var(--card-text);
+  padding: 20px;
+  border-radius: 5px;
+  min-width: 300px;
+  flex: 1 1 30%;
+}
