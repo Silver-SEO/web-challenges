@@ -247,3 +247,15 @@ CSS based on conditions such as viewport width, etc. */
 /* --- */
 /* Replace this comment with your media query. */
 /* --- */
+
+@media (min-width: 600px) {
+  :root {
+    --font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --font-size: 20px;
+  }
+}
