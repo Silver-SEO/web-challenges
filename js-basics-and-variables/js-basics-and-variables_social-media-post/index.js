@@ -11,6 +11,12 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const title = "Social Media Post Title";
+const content = "This is an lorem ipsum social media post content.";
+const likes = 42;
+const user = "Alexander Saupe";
+const isReported = true;
+
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +24,10 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+console.log(title);
+console.log(content);
+console.log(likes + 1);
+console.log(user);
+console.log(isReported);
 
 // --^-- write your code here --^--
