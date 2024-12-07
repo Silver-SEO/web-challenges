@@ -12,6 +12,8 @@ We want to add functionality to the buttons on this page. When a button is click
 */
 
 redButton.addEventListener("click", () => {
+  removeAllColors();
+  addColor("red");
   /*
   Use your functions to:
     - remove all classes
@@ -20,6 +22,8 @@ redButton.addEventListener("click", () => {
 });
 
 blueButton.addEventListener("click", () => {
+  removeAllColors();
+  addColor("blue");
   /*
   Use your functions to:
     - remove all classes
@@ -28,6 +32,8 @@ blueButton.addEventListener("click", () => {
 });
 
 greenButton.addEventListener("click", () => {
+  removeAllColors();
+  addColor("green");
   /*
   Use your functions to:
     - remove all classes
@@ -36,6 +42,8 @@ greenButton.addEventListener("click", () => {
 });
 
 grayButton.addEventListener("click", () => {
+  removeAllColors();
+  addColor("gray");
   /*
   Use your functions to:
     - remove all classes
@@ -44,3 +52,9 @@ grayButton.addEventListener("click", () => {
 });
 
 // Write your two functions below:
+function removeAllColors() {
+  box.classList.remove("gray", "red", "blue", "green");
+}
+function addColor(color) {
+  box.classList.add(color);
+}
