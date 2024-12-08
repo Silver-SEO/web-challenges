@@ -11,7 +11,7 @@ button.addEventListener("click", () => {
   // "You are a teen." or "You are not a teen." into the output.
 
   if (age > 12 && age < 20) {
-    output.innerHTML = "You are a teen.";
+    output.textContent = "You are a teen.";
   } else {
     output.innerHTML = "You are not a teen.";
   }
