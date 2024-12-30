@@ -20,19 +20,3 @@ form.addEventListener("submit", (event) => {
   formElement.reset();
   formElement.elements.firstName.focus();
 });
-
-/*
-console.clear();
-
-const form = document.querySelector('[data-js="form"]');
-2
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const formElements = event.target.elements;
-
-  console.log(formElements.firstName);
-  console.log(formElements.firstName.value);
-});
-
-*/
