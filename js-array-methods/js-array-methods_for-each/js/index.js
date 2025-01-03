@@ -1,3 +1,6 @@
+console.clear();
+const colorContainer = document;
+
 const colors = [
   "#343434",
   "#7FB5B5",
@@ -19,4 +22,21 @@ const colors = [
   "#A5A5A5",
 ];
 
-colors.forEach();
+colors.forEach((color) => {
+  const colorElement = document.createElement("div");
+  colorElement.classList.add("color-box");
+  colorElement.style = `background-color: ${color}`;
+  colorElement.textContent = color;
+  document.body.append(colorElement);
+});
+
+function renderColorBox(color) {
+  const colorElement = document.createElement("div");
+  colorElement.classList.add("color-box");
+  colorElement.style = `background-color: ${color}`;
+  colorElement.textContent = color;
+  document.body.append(colorElement);
+}
+colors.forEach(renderColorBox);
+
+console.log(colors);
