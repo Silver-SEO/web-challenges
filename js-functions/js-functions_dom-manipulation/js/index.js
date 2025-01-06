@@ -12,6 +12,8 @@ We want to add functionality to the buttons on this page. When a button is click
 */
 
 redButton.addEventListener("click", () => {
+  removeAllColors();
+  addColor("red");
   /*
   Use your functions to:
     - remove all classes
@@ -22,6 +24,8 @@ redButton.addEventListener("click", () => {
 });
 
 blueButton.addEventListener("click", () => {
+  removeAllColors();
+  addColor("blue");
   /*
   Use your functions to:
     - remove all classes

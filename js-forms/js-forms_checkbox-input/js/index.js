@@ -22,3 +22,11 @@ form.addEventListener("submit", (event) => {
   // eslint-disable-next-line no-alert
   alert("Form submitted");
 });
+
+tosCheckbox.addEventListener("change", () => {
+  if (tosCheckbox.checked) {
+    hideTosError();
+  } else {
+    showTosError();
+  }
+});
