@@ -6,12 +6,14 @@ export default function App() {
 
 function Article() {
   return (
-    <article>
-      <h2 className="article_header">Article Header H</h2>
-      <label id="label">Test Article Lorem Ipsum Text</label>
-      <br />
-      <input htmlFor="test"></input>
-      <br />
+    <article className="article">
+      <h2 className="article_title">Article Header H</h2>
+      <label id="label" htmlFor="label">
+        Test Article Lorem Ipsum Text
+      </label>
+
+      <input type="text" id="input-field" htmlFor="input-field"></input>
+
       <a className="article_link" href="https://www.wikipedia.org/">
         Wikipedia
       </a>
