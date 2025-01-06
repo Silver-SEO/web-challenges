@@ -40,3 +40,21 @@ function renderColorBox(color) {
 colors.forEach(renderColorBox);
 
 console.log(colors);
+=======
+colors.forEach((colorBox) => {
+  const container = document.createElement("div");
+  container.classList.add("color-container");
+  container.style.backgroundColor = colorBox;
+  container.textContent = colorBox;
+  document.body.append(container);
+});
+
+colors.forEach(renderColorBox);
+
+function renderColorBox(colores) {
+  const container = document.createElement("div");
+  container.classList.add("color-container");
+  container.style.backgroundColor = colores;
+  container.textContent = colores;
+  document.body.append(container);
+}
