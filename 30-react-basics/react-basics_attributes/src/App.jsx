@@ -1,7 +1,7 @@
 import "./styles.css";
 
 export default function App() {
-  return Article();
+  return <Article />;
 }
 
 function Article() {
