@@ -1,4 +1,5 @@
 import BoxWithClassName from "../components/BoxWithClassName/BoxWithClassName.js";
+import BoxWithStyledComponents from "@/components/BoxWithStyledComponents.js";
 
 export default function HomePage() {
   return (
@@ -6,5 +7,10 @@ export default function HomePage() {
       <BoxWithClassName />
       <BoxWithClassName isBlack />
     </div>
+
+    // {/* <div>
+    // <BoxWithStyledComponents />
+    // <BoxWithStyledComponents isBlack />
+    // </div> */}
   );
 }
