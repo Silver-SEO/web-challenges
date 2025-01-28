@@ -1,6 +1,8 @@
-import { products } from "../../../lib/products";
+import dbConnect from "@/db/connect";
+import product from "@db/models/products";
 
 export default function handler(request, response) {
+  await dbConnect();
   const { id } = request.query;
 
   const product = products.find((product) => product.id === id);
