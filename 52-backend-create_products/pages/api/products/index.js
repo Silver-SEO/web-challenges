@@ -6,17 +6,11 @@ export default async function handler(request, response) {
 
   if (request.method === "GET") {
     const products = await Product.find();
-    response.status(200).json(products);
-    return;
-  }
-  if (request.method === "POST") {
-    const productData = request.body;
-    console.log("productData: ", productData);
 
-    await Product.create(productData);
-    response.status(201).json({ status: "Poduct Created" });
+    response.status(200).json(products);
     return;
   }
 
   response.status(405).json({ status: "Method not allowed." });
 }
+
